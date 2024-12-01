@@ -1,4 +1,8 @@
 def tckimlik(tc):
+
+    if not tc.isdigit():
+            return "Your TC must contain only numbers."
+
     list = []
     for i in tc:
         list.append(int(i))
